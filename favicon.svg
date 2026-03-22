@@ -1,0 +1,36 @@
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bg" cx="40%" cy="40%" r="70%">
+      <stop offset="0%" stop-color="#1a0308"/>
+      <stop offset="100%" stop-color="#080008"/>
+    </radialGradient>
+    <linearGradient id="vr" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c0152a"/>
+      <stop offset="100%" stop-color="#7b1fa2"/>
+    </linearGradient>
+    <linearGradient id="vr2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e01830"/>
+      <stop offset="100%" stop-color="#9c27b0"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <circle cx="128" cy="128" r="128" fill="url(#bg)"/>
+  <!-- Decorative ring -->
+  <circle cx="128" cy="128" r="110" fill="none" stroke="url(#vr)" stroke-width="1.5" opacity="0.3"/>
+  <!-- Glow blobs -->
+  <ellipse cx="100" cy="110" rx="70" ry="60" fill="rgba(180,10,30,0.12)"/>
+  <ellipse cx="160" cy="150" rx="55" ry="50" fill="rgba(100,10,150,0.10)"/>
+  <!-- Play button outer glow ring -->
+  <circle cx="128" cy="112" r="54" fill="rgba(192,21,42,0.12)" stroke="url(#vr)" stroke-width="1.5" opacity="0.6"/>
+  <!-- Play button filled circle -->
+  <circle cx="128" cy="112" r="42" fill="url(#vr)" opacity="0.92"/>
+  <!-- Play triangle -->
+  <polygon points="118,94 118,130 152,112" fill="white" opacity="0.96"/>
+  <!-- Live green dot -->
+  <circle cx="158" cy="82" r="9" fill="#00e676"/>
+  <circle cx="158" cy="82" r="5.5" fill="#b9f6ca"/>
+  <!-- SE monogram -->
+  <text x="128" y="188" text-anchor="middle" font-family="Georgia,serif" font-size="28" font-weight="700" fill="url(#vr2)" letter-spacing="3">SE</text>
+  <!-- Underline accent -->
+  <rect x="98" y="195" width="60" height="2" rx="1" fill="url(#vr)" opacity="0.55"/>
+</svg>
